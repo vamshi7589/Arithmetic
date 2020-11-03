@@ -9,3 +9,5 @@ read -p "Enter third input :" c
 #COMPUTE ARITHMETIC OPERATION
 result1=$(( a + b * c ))
 echo "Result:" $result1
+result2=$(( a * b + c ))
+echo "Result:" $result2
