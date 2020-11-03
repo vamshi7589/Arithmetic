@@ -15,3 +15,8 @@ result3=$(( c + a / b ))
 echo "Result:" $result3
 result4=$(( a % b + c ))
 echo "Result:" $result4
+#TO STORE THE DICTIONARY
+arithmaticOperation[result1]=$result1
+arithmaticOperation[result2]=$result2
+arithmaticOperation[result3]=$result3
+arithmaticOperation[result4]=$result4
