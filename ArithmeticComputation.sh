@@ -6,3 +6,6 @@ declare -A arithmaticOperation
 read -p "Enter first input :" a
 read -p "Enter second input:" b
 read -p "Enter third input :" c
+#COMPUTE ARITHMETIC OPERATION
+result1=$(( a + b * c ))
+echo "Result:" $result1
